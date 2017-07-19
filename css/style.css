@@ -12,6 +12,7 @@ body {
   background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Cardo', serif;
   color: #222;
+  line-height: 1.2;
 }
 
 h1 {
@@ -38,4 +39,8 @@ main {
   top: 50%;
   left: 50%;
   text-align: center;
+}
+
+li:not(:last-of-type) {
+  margin-bottom: 40px;
 }
